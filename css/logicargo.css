@@ -381,14 +381,18 @@ Clientes
     border: 2px solid #ffffff;    
 }
 
-.campari {
+/*.campari {
     background-image: url("../img/campari.jpg");
     background-size: auto;
     background-repeat: no-repeat;
-}
-
+}*/
+/*
 .nike {
     background-image: url("../img/nike.png");
     background-size: auto;
     background-repeat: no-repeat;
+}*/
+
+.logo-cliente img {
+    height: 65px;
 }
