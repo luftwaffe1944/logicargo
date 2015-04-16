@@ -156,7 +156,10 @@ a.boton {
 }
 
 #empresa .container-empresa {
+ /*
     background-color: rgba(0,102,73,0.9); 
+ */
+    background-color: rgba(0, 0, 0, 0.8); 
     padding-top: 5px;
     padding-bottom: 30px;
 }
@@ -173,9 +176,24 @@ a.boton {
 
 #empresa p {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
 }
+
+#empresa .fa-li {
+    text-align: center;
+    color: #ffffff;
+}
+
+#empresa li {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#empresa li b{
+    font-size: 30px;
+}
+
 
 /*
 * CSS Servicios
