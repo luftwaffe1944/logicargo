@@ -6,6 +6,10 @@
     visibility: hidden;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -136,6 +140,38 @@ a.boton {
 
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
+}
+
+a.boton-1 {
+    font-size: 20px;
+    font-family: 'Ruda';
+    text-transform: uppercase;;
+    color: #ffffff;
+    border-right: #ffffff solid 2px;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    font-family: "Ruda";
+    font-size: 30px;
+    color: #ffffff;
+    float: left;
+}
+
+p.navbar-btn a.btn {
+    text-transform: uppercase;;
+    font-size: 20px;
+    color: #ffffff;
+    border-left: 2px solid #ffffff;
+    font-weight: bold;
+}
+
+p.navbar-btn.last a.btn {
+    border-right: 2px solid #ffffff;
 }
 
 .icon,

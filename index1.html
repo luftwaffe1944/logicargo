@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
@@ -18,85 +18,45 @@
 	<nav class="navbar navbar-fixed-top" role="navigation">
 		<div class="container header">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 						<a href="/logicargo">
 							<div class="logo slideDown"></div>
 						</a>						
 				</div>
-				<div class="col-md-4 col-md-offset-4">
-					<div class="telefono slideDown">
-						<h2>TEL: (011) 4444-5555</h2>						
-					</div>
+				<div class="menu-navbar col-md-8 col-md-offset-1 hidden">
+					<ul>
+						<li>
+							<p class="navbar-btn">
+								<a href="empresa.html" class="btn">Empresa</a>							
+							</p>
+						</li>
+						<li>
+							<p class="navbar-btn">
+								<a href="empresa.html" class="btn">Servicios</a>
+							</p>
+						</li>
+						<li>
+							<p class="navbar-btn">
+								<a href="empresa.html" class="btn">Servicios</a>			
+							</p>
+						</li>
+						<li>
+							<p class="navbar-btn">
+								<a href="empresa.html" class="btn">Destinos</a>
+							</p>
+						</li>
+						<li>
+							<p class="navbar-btn last">
+								<a href="empresa.html" class="btn">Seguimiento</a>
+							</p>
+						</li>
+					</ul>
+	
 				</div>
 			</div>
 		</div>
 	</nav>
 
-	<div id="carousel-logicargo" class="container-fluid carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
-		  	<div class="item active"> <img src="img/4-gris.jpg"data-src="" >
-		     	<div class="carousel-caption">
-        			<p>Prestigio y Excelencia</p>
-		    	</div>
-		  	</div>
-		  <div class="item"> <img src="img/5-gris.jpg" data-src="">
-		     	<div class="carousel-caption">
-        			<p>Profesionales especializados en el sector de la logística</p>
-		    	</div>
-		  </div>
-		  <!--
-		  agregar una imagen mas
-		  <div class="item"> <img src="img/3.jpg" data-src="">
-		    <div class="container">
-		    </div>
-		  </div>
-		-->
-		</div>
-
-	<div class="botones hidden-xs">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-1">
-					<a href="#empresa" class="page-scroll boton centered">
-						<span>Empresa</span>
-					</a>	
-				</div>
-				<div class="col-md-1 col-md-offset-1">
-					<a href="#servicios" class="page-scroll boton centered">
-						<span>Servicios</span>
-					</a>	
-				</div>
-				<div class="col-md-1 col-md-offset-2">
-						<a href="" class="page-scroll boton btn-seguimiento centered">
-							<span>Seguimiento</span>
-						</a>	
-				</div>
-				<div class="col-md-1 col-md-offset-2">
-					<a href="#destinos" class="page-scroll boton centered">
-						<span>Destinos</span>
-					</a>	
-				</div>
-				<div class="col-md-1 col-md-offset-1">
-						<a href="#contacto" class="page-scroll boton centered">
-							<span>Contacto</span>
-						</a>	
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
-				<div class="or-spacer">
-  					<div class="mask"></div>
-				</div>				
-			</div>
-		</div>
-	</div>
 
 	<div id="empresa" class="container-fluid empresa-bg">
 		<div class="container-fluid container-empresa">
@@ -589,7 +549,7 @@
 	$(document).ready(function(){
   $(window).bind('scroll', function() {
     var navHeight = 300; // custom nav height
-    ($(window).scrollTop() > navHeight) ? $('nav').addClass('goToTop') : $('nav').removeClass('goToTop');
+    ($(window).scrollTop() > navHeight && $(window).screenY != 0) ? $('div.menu-navbar').removeClass('hidden') : $('div.menu-navbar').addClass	('hidden');
   });
 });
 
