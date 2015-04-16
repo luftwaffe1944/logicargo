@@ -395,4 +395,6 @@ Clientes
 
 .logo-cliente img {
     height: 65px;
+    max-width: 100%;
+    margin: 20px 0;
 }
