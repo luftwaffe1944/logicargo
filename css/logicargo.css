@@ -159,7 +159,7 @@ a.boton {
  /*
     background-color: rgba(0,102,73,0.9); 
  */
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0.8);
     padding-top: 5px;
     padding-bottom: 30px;
 }
@@ -173,6 +173,11 @@ a.boton {
     font-size: 40px;
 }
 
+#empresa h4 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
 
 #empresa p {
     color: #ffffff;
@@ -180,20 +185,29 @@ a.boton {
     text-align: justify;
 }
 
-#empresa .fa-li {
+#empresa .mision-vision .fa-li {
     text-align: center;
     color: #ffffff;
 }
 
-#empresa li {
+#empresa .mision-vision li {
     color: #ffffff;
     font-size: 20px;
 }
 
-#empresa li b{
+#empresa .mision-vision li b{
     font-size: 30px;
 }
 
+#empresa .valores .fa-li {
+    text-align: center;
+    color: #ffffff;
+}
+
+#empresa .valores li {
+    color: #ffffff;
+    font-size: 15px;
+}
 
 /*
 * CSS Servicios
